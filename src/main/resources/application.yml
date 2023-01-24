@@ -1,0 +1,3 @@
+server:
+ port : 1007
+ servlet.context-path: "/selva"
