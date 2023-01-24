@@ -9,13 +9,13 @@
 	</parent>
 	<artifactId>DeepLearning</artifactId>
 	<groupId>com.sel.macro</groupId>
-	<name>Spring Boot Actuator Sample</name>
-	<description>Spring Boot Actuator Sample</description>
+	<name>Deep Learning Sample </name>
+	<description>Understand the in-deep knowledge of Deep Learning</description>
 	<version>0.0.1-SNAPSHOT</version>
-	<url>http://projects.spring.io/spring-boot/</url>
+	<url></url>
 	<organization>
-		<name>Pivotal Software, Inc.</name>
-		<url>http://www.spring.io</url>
+		<name>selva Software, Inc.</name>
+		<url>https://github.com/selva121s/DeepLearning</url>
 	</organization>
 	<properties>
 		<main.basedir>${basedir}/../..</main.basedir>
@@ -24,6 +24,11 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+			<version>3.0.2</version>
 		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>
